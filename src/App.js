@@ -11,7 +11,14 @@ function App() {
     <div className="app">
       hey youtube
 
+      {/* Header */}
 
+
+      {/* Sidebar */}
+
+
+
+      {/* mainSection */}
 
 
 
