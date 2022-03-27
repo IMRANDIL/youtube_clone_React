@@ -8,7 +8,7 @@ import './Video.css'
 const Video = ({ image, title, channel, views, timestamp, channelImage }) => {
     return (
         <div className='videoCard'>
-            <img src={image} alt="thumb-img" />
+            <img src={image} alt="thumb-img" className='videoCard__thumbnail' />
 
             <div className="videoCard__info">
                 <Avatar className='video__avatar' alt={channel} src={channelImage} />
