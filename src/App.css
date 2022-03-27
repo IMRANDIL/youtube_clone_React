@@ -2,4 +2,5 @@
 
 .app__page{
     display:flex;
+    margin:0 auto;
 }

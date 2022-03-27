@@ -1,8 +1,13 @@
 
 import './App.css';
-import Header from './components/Header/Header';
-import Recommended from './components/RecommendedVideos/Recommended';
-import Sidebar from './components/Sidebar/Sidebar';
+
+
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import AppPage from './components/AppPage/AppPage';
 
 
 
@@ -13,18 +18,23 @@ function App() {
   return (
     <div className="app">
 
+      <BrowserRouter>
 
-      {/* Header */}
-      <Header />
-      {/* Sidebar */}
-      <div className='app__page'>
-        <Sidebar />
-        <Recommended />
-      </div>
+        <Routes>
+
+          <Route path='/' element={<AppPage />} />
 
 
+        </Routes>
 
-      {/* mainSection */}
+
+      </BrowserRouter>
+
+
+
+
+
+
 
 
 
