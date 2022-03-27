@@ -44,9 +44,9 @@ const Header = () => {
 
             <div className="header__right">
 
-                <VideoCallSharpIcon className='header__icon' fontSize='large' />
-                <AppsSharpIcon className='header__icon' fontSize='large' />
-                <NotificationsActiveSharpIcon className='header__icon' fontSize='large' />
+                <VideoCallSharpIcon className='header__icon' />
+                <AppsSharpIcon className='header__icon' />
+                <NotificationsActiveSharpIcon className='header__icon' />
                 <Avatar src='https://avatars.githubusercontent.com/u/71559091?s=400&u=261c7198a75f868c1d0c5deda860c96ad06d8820&v=4' alt='profile-img' />
 
             </div>

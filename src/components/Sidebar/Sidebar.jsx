@@ -15,9 +15,9 @@ const Sidebar = () => {
         <div className='sidebar'>
 
 
-            <SidebarRow title='Home' icon={<HomeSharpIcon />} />
-            <SidebarRow title='Trending' icon={<WhatshotSharpIcon />} />
-            <SidebarRow title='Subscription' icon={<SubscriptionsSharpIcon />} />
+            <SidebarRow title='Home' Icon={HomeSharpIcon} />
+            <SidebarRow title='Trending' Icon={WhatshotSharpIcon} />
+            <SidebarRow title='Subscription' Icon={SubscriptionsSharpIcon} />
 
 
         </div>
