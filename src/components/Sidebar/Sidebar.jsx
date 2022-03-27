@@ -15,7 +15,7 @@ const Sidebar = () => {
         <div className='sidebar'>
 
 
-            <SidebarRow title='Home' Icon={HomeSharpIcon} />
+            <SidebarRow selected title='Home' Icon={HomeSharpIcon} />
             <SidebarRow title='Trending' Icon={WhatshotSharpIcon} />
             <SidebarRow title='Subscription' Icon={SubscriptionsSharpIcon} />
 
