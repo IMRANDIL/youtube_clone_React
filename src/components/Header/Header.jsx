@@ -32,7 +32,7 @@ const Header = () => {
 
                 </IconButton>
 
-                <img src={logo} alt="logo-img" className='header__logo' />
+                <img draggable='false' src={logo} alt="logo-img" className='header__logo' />
 
             </div>
 

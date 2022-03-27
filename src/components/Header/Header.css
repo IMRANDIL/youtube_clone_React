@@ -1,2 +1,44 @@
 
 
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+    
+}
+
+
+.header__logo{
+    height:  80px;
+
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+.header__middle{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid black;
+}
+
+
+.header__middle > input{
+    flex: 1;
+    border: none;
+}
+
+
+
+
+
+.header__right{
+    display: flex;
+    align-items: center;
+}
