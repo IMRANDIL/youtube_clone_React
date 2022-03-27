@@ -3,6 +3,7 @@
 .videoCard{
     width:270px;
     margin-bottom: 40px;
+  
     
 }
 
@@ -31,4 +32,9 @@
 .videoCard__infoText > p{
     font-size: 14px;
     color: gray;
+}
+
+.video__avatar{
+    width: 30px !important;
+    height: 30px !important;
 }
