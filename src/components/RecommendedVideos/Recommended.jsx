@@ -7,7 +7,7 @@ import './Recommended.css'
 
 const Recommended = () => {
     return (
-        <div>Recommended</div>
+        <div className='recommended'>Recommended</div>
     )
 }
 
