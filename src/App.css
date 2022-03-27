@@ -2,5 +2,7 @@
 
 .app__page{
     display:flex;
-    margin:0 auto;
+ 
+   height: 100vh;
+   
 }

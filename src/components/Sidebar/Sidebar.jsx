@@ -21,7 +21,7 @@ import ExpandMoreSharpIcon from '@mui/icons-material/ExpandMoreSharp';
 
 const Sidebar = () => {
     return (
-        <div className='sidebar'>
+        <div className='sidebar' >
 
 
             <SidebarRow selected title='Home' Icon={HomeSharpIcon} />
