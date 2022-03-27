@@ -28,7 +28,7 @@ const Header = () => {
 
             <div className="header__left">
                 <IconButton>
-                    <MenuSharpIcon />
+                    <MenuSharpIcon fontSize='large' />
 
                 </IconButton>
 
@@ -37,16 +37,16 @@ const Header = () => {
             </div>
 
             <div className="header__middle">
-                <input type="text" />
-                <SearchSharpIcon />
+                <input type="text" placeholder='Search...' />
+                <SearchSharpIcon className='input__search' />
             </div>
 
 
             <div className="header__right">
 
-                <VideoCallSharpIcon />
-                <AppsSharpIcon />
-                <NotificationsActiveSharpIcon />
+                <VideoCallSharpIcon className='header__icon' fontSize='large' />
+                <AppsSharpIcon className='header__icon' fontSize='large' />
+                <NotificationsActiveSharpIcon className='header__icon' fontSize='large' />
                 <Avatar src='https://avatars.githubusercontent.com/u/71559091?s=400&u=261c7198a75f868c1d0c5deda860c96ad06d8820&v=4' alt='profile-img' />
 
             </div>
