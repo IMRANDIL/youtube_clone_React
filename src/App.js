@@ -1,6 +1,8 @@
 
 import './App.css';
 import Header from './components/Header/Header';
+import Recommended from './components/RecommendedVideos/Recommended';
+import Sidebar from './components/Sidebar/Sidebar';
 
 
 
@@ -15,6 +17,10 @@ function App() {
       {/* Header */}
       <Header />
       {/* Sidebar */}
+      <div className='app__page'>
+        <Sidebar />
+        <Recommended />
+      </div>
 
 
 
