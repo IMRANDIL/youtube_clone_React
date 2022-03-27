@@ -4,9 +4,16 @@ import './Video.css'
 
 
 
-const Video = () => {
+const Video = ({ image, title, channel, views, timestamp, channelImage }) => {
     return (
-        <div>Video</div>
+        <div className='videoCard'>
+            <img src={image} alt="thumb-img" />
+
+            <div className="videoCard__info">
+
+            </div>
+
+        </div>
     )
 }
 
