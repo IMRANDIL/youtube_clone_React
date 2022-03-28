@@ -4,6 +4,7 @@
     /* flex-direction: column; */
     margin-bottom: 30px;
     max-width: 700px;
+    margin-left: 20px;
 }
 
 
@@ -18,4 +19,27 @@
 
 .videoRow__text{
     margin-left: 14px;
+}
+
+.videoRow__text .description{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #606060;
+}
+
+
+.videoRow__text .headline{
+    font-size: 12px;
+    color: #606060;
+}
+
+
+.videoRow__text .subsNumber{
+    font-weight: bolder;
+    color: rgb(84,157,211);
+}
+
+.videoRow__text .videoRow__subs{
+    background-color: lightgray;
+    padding:2px;
 }
