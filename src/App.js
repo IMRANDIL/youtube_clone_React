@@ -1,6 +1,6 @@
 
 import './App.css';
-
+import Header from './components/Header/Header'
 
 import {
   BrowserRouter,
@@ -19,9 +19,10 @@ function App() {
     <div className="app">
 
       <BrowserRouter>
-
+        <Header />
         <Routes>
 
+          <Route path='/search/:searchTerm' />
           <Route path='/' element={<AppPage />} />
 
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Header.css'
 
 import MenuSharpIcon from '@mui/icons-material/MenuSharp';
@@ -9,6 +9,10 @@ import SearchSharpIcon from '@mui/icons-material/SearchSharp';
 import VideoCallSharpIcon from '@mui/icons-material/VideoCallSharp';
 import AppsSharpIcon from '@mui/icons-material/AppsSharp';
 import NotificationsActiveSharpIcon from '@mui/icons-material/NotificationsActiveSharp';
+
+import { Link } from 'react-router-dom';
+
+
 
 
 
@@ -23,6 +27,13 @@ import NotificationsActiveSharpIcon from '@mui/icons-material/NotificationsActiv
 
 
 const Header = () => {
+
+
+    const [searchInput, setSearchInput] = useState('')
+
+
+
+
     return (
         <div className='header'>
 
@@ -37,8 +48,12 @@ const Header = () => {
             </div>
 
             <div className="header__middle">
-                <input type="text" placeholder='Search...' />
-                <SearchSharpIcon className='input__search' />
+                <input type="text" placeholder='Search...' value={searchInput} onChange={(e) => setSearchInput(e.target.value)} />
+                <Link to={`/search/${searchInput}`}>
+
+                    <SearchSharpIcon className='input__search' />
+                </Link>
+
             </div>
 
 
