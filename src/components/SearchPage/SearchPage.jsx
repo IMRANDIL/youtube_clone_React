@@ -34,7 +34,18 @@ const SearchPage = () => {
                     />
                     <hr />
 
-                    <VideoRow />
+                    <VideoRow
+                        views='1.5M'
+                        subs='54K'
+                        description='If you want to learn web development just watch this video and learn those all for free.'
+                        timestamp='15 seconds ago'
+                        channel='Clever Programmer'
+                        title="🎈Let's Build A YouTube Like App"
+                        image='https://i.ytimg.com/vi/rhPSo4_Tgi0/maxresdefault.jpg'
+
+
+
+                    />
 
                 </div>
 

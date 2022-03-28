@@ -4,6 +4,8 @@
     flex:0.8;
     background-color: #f9f9f9;
     padding: 20px;
+    overflow: auto;
+   
 }
 
 
