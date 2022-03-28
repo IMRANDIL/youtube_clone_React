@@ -18,6 +18,7 @@ const SearchPage = () => {
                         <TuneSharpIcon />
                         <h2>FILTER</h2>
                     </div>
+                    <hr />
 
                 </div>
 
