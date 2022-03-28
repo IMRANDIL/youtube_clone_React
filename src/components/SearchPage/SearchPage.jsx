@@ -6,10 +6,19 @@ import Sidebar from '../Sidebar/Sidebar'
 
 const SearchPage = () => {
     return (
-        <div>
-            <Sidebar />
+        <>
+            <div className="app__page">
+                <Sidebar />
 
-        </div>
+                <div className='searchPage'>
+                    <h2>Search</h2>
+
+                </div>
+
+
+            </div>
+
+        </>
     )
 }
 
