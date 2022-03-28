@@ -8,6 +8,7 @@ import {
   Route,
 } from "react-router-dom";
 import AppPage from './components/AppPage/AppPage';
+import SearchPage from './components/SearchPage/SearchPage';
 
 
 
@@ -22,7 +23,7 @@ function App() {
         <Header />
         <Routes>
 
-          <Route path='/search/:searchTerm' />
+          <Route path='/search/:searchTerm' element={<SearchPage />} />
           <Route path='/' element={<AppPage />} />
 
 

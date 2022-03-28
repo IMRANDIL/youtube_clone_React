@@ -42,8 +42,11 @@ const Header = () => {
                     <MenuSharpIcon fontSize='large' />
 
                 </IconButton>
+                <Link to='/'>
 
-                <img draggable='false' src={logo} alt="logo-img" className='header__logo' />
+                    <img draggable='false' src={logo} alt="logo-img" className='header__logo' />
+                </Link>
+
 
             </div>
 
