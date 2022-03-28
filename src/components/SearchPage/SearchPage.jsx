@@ -1,6 +1,9 @@
 import React from 'react'
 import './SearchPage.css'
 import Sidebar from '../Sidebar/Sidebar'
+import TuneSharpIcon from '@mui/icons-material/TuneSharp';
+
+
 
 
 
@@ -11,7 +14,10 @@ const SearchPage = () => {
                 <Sidebar />
 
                 <div className='searchPage'>
-                    <h2>Search</h2>
+                    <div className="searchPage__filter">
+                        <TuneSharpIcon />
+                        <h2>FILTER</h2>
+                    </div>
 
                 </div>
 
